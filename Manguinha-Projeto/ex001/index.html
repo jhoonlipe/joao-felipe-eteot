@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula_1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/nike.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="pag">
+        <header></header>
+        <nav><br>
+            <ul>
+                <li> <a href="index.html"> inicio</a></li>
+                <li > <a href="tenis.html"> Tênis</a></li>
+                <li> <a href="camisas.html"> Camisas</a></li>
+                <li> <a href="camisas2.html"> Camisas de Time</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div id="miniaturas">
+                <div class="inicio">
+                    <img src="img/modelo.jfif">
+                </div>
+                <div class="oteo">
+                    <h1>Sejam bem vindo</h1>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Contatos:<br>
+            Email = andrei.costa.estudante@eteot.rio.br<br>
+            Telefone = 3141-1050
+        </footer>
+    </div>
+
+    <div id="popup">
+        <div id="fechar" onclick="fechar()"> X </div>
+        <div id="quadro">
+            <h2>Indentifique-se</h2>
+            <form name="form" method="post">
+                <input type="text"name="login" placeholder="Login" id="login">
+                <input type="password" name="senha" placeholder="Senha" id="senha">
+                <input type="button" value="ok" onclick="entrar()">
+                <p id="msg">Acesso Negado. Cai fora malandro(Feliz dia das mulheres)</p>
+                <a href="#">Não possuo cadastro meu rei</a>
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
